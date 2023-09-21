@@ -29,7 +29,7 @@ soap.wsdl_cache_ttl => 86400 => 86400
 ## Exemplo de execução/teste
 Ambiente de homologação da API Apoio Cotações
 ```
-php con-wssoap-comline/index3.php 'http://homologacao.apoiocotacoes.com.br:80/app/WSPedidoCotacao' '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ped="http://pedidocotacao.mv.client.webService.apoio.com.br/"><soapenv:Header/><soapenv:Body><ped:enviarPedidoCotacao><arg0><cabecalho><login>ws.avare</login><senha>ws.avare</senha></cabecalho><solicitacaoCompra><dataHoraValidade>01/01/2024 11:01</dataHoraValidade><listaProduto><produto><codigoProduto>0000037788</codigoProduto><quantidade>5.000000</quantidade></produto></listaProduto><operacao>I</operacao><titulo>TESTE</titulo></solicitacaoCompra></arg0></ped:enviarPedidoCotacao></soapenv:Body></soapenv:Envelope>' 'enviarPedidoCotacao' 'http://homologacao.apoiocotacoes.com.br' 'WSRetornoPedidoCotacao' '1'
+php con-wssoap-comline/index.php 'http://homologacao.apoiocotacoes.com.br:80/app/WSPedidoCotacao' '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ped="http://pedidocotacao.mv.client.webService.apoio.com.br/"><soapenv:Header/><soapenv:Body><ped:enviarPedidoCotacao><arg0><cabecalho><login>ws.avare</login><senha>ws.avare</senha></cabecalho><solicitacaoCompra><dataHoraValidade>01/01/2024 11:01</dataHoraValidade><listaProduto><produto><codigoProduto>0000037788</codigoProduto><quantidade>5.000000</quantidade></produto></listaProduto><operacao>I</operacao><titulo>TESTE</titulo></solicitacaoCompra></arg0></ped:enviarPedidoCotacao></soapenv:Body></soapenv:Envelope>' 'enviarPedidoCotacao' 'http://homologacao.apoiocotacoes.com.br' 'WSRetornoPedidoCotacao' '1'
 ```
 
 <hr>
