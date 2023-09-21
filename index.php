@@ -1,5 +1,5 @@
 <?php
-endpoint = $argv[1];       // Endpoint
+$endpoint = $argv[1];       // Endpoint
 $xmlContent = $argv[2];     // Arquivo xml em string
 $method  = $argv[3];        // Método
 $namespace = $argv[4];      // Namespace
